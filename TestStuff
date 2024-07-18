@@ -1,0 +1,21 @@
+<div class="topbox"><a style="color:blue;font-weight:bold;">STEP 1 | </a>
+    <a class="QHeading">Gather Host Info</a>
+</div>
+<div class="clear"></div>
+<div class="box">
+    <label>Host password:</label><input type="text" id="hostPassword" />
+</div>
+<div class="box">
+    <label>Serial Number:</label><input path="serialNumber" size="30" />
+</div>
+<div class="clear"></div>
+<div class="box">
+    <label>Resource Name:</label><input path="resourceName" id="hName" size="30" />
+</div>
+<div class="box">
+    <label>Resource Status:</label><select path="resourceStatus">
+        <option value="Available" label="Available" />
+        <option value="InActive" label="InActive" />
+    </select>
+</div>
+<!-- CONTINUE WITH THESE BOXES -->

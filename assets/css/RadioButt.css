@@ -1,0 +1,44 @@
+/* Making the radio buttons line up horizontally  */
+input[type="radio"] {
+    display:flexbox;
+  }
+/* Styling the radio buttons  */
+input[type="radio"]:checked + label {
+    /* background-color: red; */
+    display: inline-block;
+    line-height: 2vw;
+    text-align: left;
+    width: 15vw;
+    font-size: 1.4em;
+  }
+  /* subtle hover effect on button labels */
+  input[type="radio"]:hover + label {
+    background-color: rgba(0, 0, 255, 0.288);
+    display: inline-block;
+    line-height: 2vw;
+    text-align: left;
+    width: 15vw;
+    font-size: 1.2em;
+  }
+  /* input[type="radio"]:checked + label {
+    background-color: red;
+    display: inline-block;
+    line-height: 4vw;
+    text-align: center;
+    width: 18vw;
+  } */
+  /* / the radio button label */
+  label {
+    /* background-color: orange; */
+    display: inline-block;
+    line-height: 2vw;
+    color: black;
+    text-align: left;
+    width: 15vw;
+    font-family: roboto slab;
+    font-size:large;
+  }
+  /* Evenly space the radio buttons across the container  */
+  .display:flex {
+    justify-content:space-evenly;
+  }

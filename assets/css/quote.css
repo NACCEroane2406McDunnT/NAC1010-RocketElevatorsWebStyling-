@@ -1,0 +1,165 @@
+/* Start with title */
+.QTitle{
+text-align: center;
+color:blue;
+font-weight: bolder;
+}
+/* Make STEP 2 look better */
+.form-label {
+    text-align: right;
+    background-color: lightgray;
+}
+/* Basic requiurement for Roboto Slab  */
+.form-select {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;letter-spacing: normal;
+    font-size: 15px;
+    padding: 5px;
+    width:1100px;
+    background-color: white ;
+}
+/* Each step of the quote has a highlight  */
+.Quote-Steps {
+    font-family: "Roboto Slab",  sans-serif;
+    /* font-optical-sizing: auto; */
+    color:blue;
+    font-weight: bold;
+
+}
+/* Set up contrast for the quote form fields */
+.mb-3 {
+   background-color:lightgrey ;
+   padding: 5px;
+   /* background-color: rgb(230, 220, 220); */
+   font-family: roboto slab;
+   font-size:large;
+   font-weight:bold;
+
+}
+/* Quote form uses a box for each step */
+/* .box {
+    width: 630px;
+    margin: 10px 10px;
+    float: left;
+    border: 15px;
+    border-top-color: #f00;
+} */
+/* Top Box is used for Encasing the heading of each step */
+.topbox {
+    box-sizing:content-box;
+    /* width: 100%; */
+    margin: 0;
+    float: center;
+    border-top-color: #f00;
+    border: solid #dbdbe0 4px;
+    background-color: rgb(204, 202, 214);
+    font-family: roboto slab;
+    font-size:large;
+    font-weight:bold;
+    padding: 5px;
+
+   }
+   /* The boxes for the estimate results are patterned after above but a little different  */
+   .Etopbox {
+    box-sizing:border-box;
+    width: 100%;
+    margin: 0;
+    float: center;
+    border-top-color: #f00;
+    border: solid #dbdbe0 4px;
+    background-color: rgb(202, 58, 45);
+    font-family: roboto slab;
+    font: size 30px;
+    font-weight:bold;
+    color:white;
+    padding: 25px;
+    text-align: center;
+
+   }
+   /* Even special headings for the estimate results  */
+   .Etopshdg {
+    font-family: roboto slab;
+    font-size:8px;
+    float: center;
+   }
+   /* A little clean up for our use, borrowed from landing page examples  */
+   .price-clean h4 {
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 300;
+    margin: 0;
+    color: #547698;
+}
+/* This was to clean up a cafuddlty with the href affecting the look  */
+a:not([href]):not([tabindex]) {
+    color:white;
+    text-decoration: none;
+}
+/* Hightlight the STEP for the quotation page  */
+#QSTEP {
+    font-family: roboto slab;
+    color: #0000ff;
+    padding: 5px;
+
+   }
+/* beyond the STEP number is a heading for that step  */
+.QHeading {
+    font-family: roboto slab;
+    color: #000000;
+    padding: 5px;
+
+   }
+/* Special red box for the estimate results  */
+.box label {
+    width: 200px;
+    padding-right: 20px;
+    text-align: right;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Setting the stage for contrast of the fields  */
+form {
+    background-color: white;
+}
+/* Each step is encase in a box like this  */
+fieldset {
+    margin: 2px;  
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 5px 10px #888888;
+
+    /* border-radius: 3px; */
+    /* background-color:#dbdbe0; */
+  }
+
+/* Contrast for form elements  */
+.form-control{
+    margin: 10px;
+    background-color: rgb(238, 232, 232);
+}
+
+/* Setting up spacing for STEP elements  */
+.col-md-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Special class to get radio buttons horizontally aligned  */
+.parent {
+    display: flex;
+  }
+  
+/* Same here but for the child  */
+.col-md-3 .child {
+    flex-basis: 100%;
+  }
+

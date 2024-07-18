@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+    <title>Rocket Elevators</title>
+    <link rel="icon" href="assets/images/rocketElevators/rocketIcon.png" />
+
+    <!-- MOBILE SETTINGS -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- WEB FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"
+      rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- REVOLUTION SLIDER -->
+    <link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME CSS -->
+    <link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+    <link rel="icon" type="image/x-icon" href="/assets/RocketElevatorAssets/favicon (3).ico" />
+
+    <!-- QUOTE FORM CSS  SPECIAL CSS FILES -->
+    <link href="assets/css/quote.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/RadioButt.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+  </head>
+  
+  <!-- HEADER -->
+      <header id="header" class="navbar-toggleable-md sticky header-md clearfix">
+        <div id="topNav">
+          <div class="container">
+            <!-- Mobile Menu Button -->
+            <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Logo -->
+            <a class="logo float-left scrollTo" href="#top">
+              <img src="./assets/images/rocketElevators/rocketLogo.png" alt="" />
+            </a>
+
+            <div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+              <nav class="nav-main">
+                <ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+                  <li class="active">
+                    <!-- HOME -->
+                    <a href="#top"> HOME </a>
+                  </li>
+                  <li>
+                    <!-- SERVICES -->
+                    <a href="#services"> SERVICES </a>
+                  </li>
+                  <li>
+                    <!-- WORK -->
+                    <a href="#portfolio"> PORTFOLIO </a>
+                  </li>
+                  <li>
+                    <!-- NEWS -->
+                    <a href="#news"> NEWS </a>
+                  </li>
+                  <li>
+                    <!-- CLIENTS -->
+                    <a href="#clients"> CLIENTS </a>
+                  </li>
+                  <li>
+                    <!-- CONTACT -->
+                    <a href="#contact"> CONTACT </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /HEADER -->
+
+      <!-- QUOTE SPEC DESIGN SPECIFICATION during development  -->
+<!-- <div class="container">
+    <img src="assets\images\QUOTE\QuoteSpec.jpg" alt="Trulli" width="1500" height="1333">
+
+</div> -->
+
+<!-- ---------/ QUOTE FORM STARTS HERE STARTS HERE -STARTS HERE -STARTS HERE ------------------------------- -->
+<div class="container">
+  <h3 class="QTitle"> ROCKET ELEVATORS QUICK ESTIMATER</h3>
+</div>  
+<div class="container">
+
+<!-- /* STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 STEP 1 */ -->
+<form>
+  <fieldset>
+   <div class="topbox"><span style="color:blue;font-weight:bold;">STEP 1 | </span>
+    <span class="QHeading">Select Type of Building</span>
+   </div> 
+   <div class="mb-3">
+    <select class="form-select" id="autoSizingSelect">
+        <option selected>---Select---</option>
+        <option value="1">Residential</option>
+        <option value="2">Commercial</option>
+        <option value="3">Industrial</option>
+    </select>
+  </div> 
+  </fieldset>
+</form>
+<!-- STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 STEP 2 -->
+<form>
+  <fieldset>
+   <div class="topbox"><a style="color:blue;font-weight:bold;">STEP 2 | </a>
+    <span class="QHeading">Provide Building Information</span>
+   </div> 
+  <div class="input-group mb-3">
+    <label for="basic-addon1" class="form-label">Number of Apartments </label>
+    <input type="text" class="form-control" placeholder="N" aria-label="NoApts" aria-describedby="basic-addon1">
+    <label for="basic-addon2" class="form-label">Number of Floors</label>
+    <input type="text" class="form-control" placeholder="N" aria-label="NoFloors" aria-describedby="basic-addon2">
+    <label for="basic-addon3" class="form-label">Number of Elevators</label>
+    <input type="text" class="form-control" placeholder="N" aria-label="NoElevators" aria-describedby="basic-addon2">
+  </div>
+  <div class="input-group mb-3">
+    <label for="basic-addon4" class="form-label">Maximum Occupancy </label>
+    <input type="text" class="form-control" placeholder="Maximum Occupancy" aria-label="MaxOcc" aria-describedby="basic-addon4">
+  </div>
+  <div class="input-group mb-3">
+    <label for="basic-addon5" class="form-label">Number of Elevators Required (Minimum of 1):</label>
+    <input type="text" class="form-control" placeholder="1" aria-label="NoElev" aria-describedby="basic-addon5">
+    <span style="text-align: right;" class="input-group mb-3" >* With exception for commercial buildings</span>
+
+ </div>
+
+   
+  </fieldset>
+</form>
+
+
+<!-- STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 STEP 3 -->
+<form>
+<fieldset>
+
+<div class="topbox"><span style="color:blue;font-weight:bold;">STEP 3 | </span>
+  <span class="QHeading">Select Product Line</span>
+  <span style="text-align: right;" class="input-group mb-3" >* Excluding tax and offers (if applicable)</span>
+ </div> 
+
+ <section style="display:flex">
+ <span style="width:10vw;display:inline-block"></span>
+  <div>
+   <input type="radio" name="Amount" id="Amount1" value="single" / checked>
+   <label for="Amount1">STANDARD *</label>
+ <!-- </br>
+ </br> -->
+   <input type="radio" name="Amount" id="Amount2" value="multi" />
+   <label for="Amount2">PREMIUM **</label>
+
+   <input type="radio" name="Amount" id="Amount3" value="multi" />
+   <label for="Amount3">EXCELIUM ***</label>
+</div>
+</section>
+
+ </fieldset>
+</form>
+
+
+<!-- STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 STEP 4 -->
+
+<form class="row gy-2 gx-3 align-items-center">
+
+    <div class="container">
+
+    <fieldset>
+        <div class="topbox"><span style="color:blue;font-weight:bold;">STEP 4 | </span>
+          <span class="QHeading">Estimated Pricing</span>
+          <span style="text-align: right;" class="input-group mb-3" >* Excluding tax and offers (if applicable)</span>
+         </div> 
+
+    			<!-- ESTIMATED PRICING -->
+
+          <div class="parent">
+        <div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3 col-sm-3">
+              <div class="Etopbox">UNIT PRICE
+                 <p class="Etopshdg">For Product Line.</p>
+               </div> 
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>12,000.00
+								</h4>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-3">
+              <div class="Etopbox">ELEVATOR COST
+                 <p class="Etopshdg">Based on the number of ELevators.</p>
+               </div> 
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>48,000.00
+								</h4>
+							</div>
+						</div>
+
+            <div class="col-md-3 col-sm-3">
+              <div class="Etopbox">INSTALLATION FEE
+                 <p class="Etopshdg">Percent Elevator Cost</p>
+               </div> 
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>7,200.00
+								</h4>
+							</div>
+						</div>
+
+            <div class="col-md-3 col-sm-3">
+              <div class="Etopbox">TOTAL COST
+                 <p class="Etopshdg">Elevator + Installtion Fee</p>
+               </div> 
+							<div class="price-clean">                                
+								<h4>
+									<sup>$</sup>7,200.00
+								</h4>
+							</div>
+						</div>
+           
+           
+					</div>
+        </div>
+      </div>
+
+  </fieldset>
+	</div>
+  </form>
+
+
+
+    <!-- <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div> -->
+
+</div>
+
+			<!-- FEATURES -->
+			<section id="features">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>Our Features</h2>
+						<p class="lead font-lato">Elevating Safety, Speed and Style</p>
+						<hr />
+					</header>
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-circle-compass"></i>
+								<h4>Licensed Design</h4>
+								<p>Our Licensed Engineers analyze every detail.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-piechart"></i>
+								<h4>Budeget Conscious</h4>
+								<p>Our designs are Performace packed yet optimized for cost.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-strategy"></i>
+								<h4>Elegance</h4>
+								<p>Our Award winning graphic artists are ready to set your applicaiton apart.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-streetsign"></i>
+								<h4>Ergonomic signage</h4>
+								<p>Safe and efficient operation for all. </p>
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+
+<!-- FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  -->
+<div class="container">
+            <!-- FOOTER -->
+            <footer id="footer" style="color: #fff; background: #0a65a0">
+                <div class="container">
+                  <div class="row">
+                    <!-- col #1 -->
+                    <div class="col-md-8">
+                      <h3 onmouseover="this.style.color= '#A94545'" onmouseout="this.style.color= '#fff'"
+                        class="letter-spacing-1">
+                        WHY US?
+                      </h3>
+        
+                      <!-- Small Description -->
+                      <p style="font-family: 'Roboto Slab', serif">
+                        Our local networks of highly qualified, experienced service
+                        technicians can keep your equipment performing at its peak,
+                        whether you have one elevator or thousands.
+                      </p>
+                      <h2 style="font-weight: 800">(800) 123-4567</h2>
+                    </div>
+                    <!-- /col #1 -->
+        
+                    <!-- col #2 -->
+                    <div class="col-md-4">
+                      <h3 onmouseover="this.style.color= '#A94545'" onmouseout="this.style.color= '#fff'"
+                        class="letter-spacing-1">
+                        KEEP IN TOUCH
+                      </h3>
+        
+                      <!-- Newsletter Form -->
+                      <p style="font-family: 'Roboto Slab', serif">
+                        Subscribe to Our Newsletter to get Important News & Offers
+                      </p>
+        
+                      <form class="validate" action="assets/php/newsletter.php" method="post"
+                        data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                          <label>
+                            <input type="email" id="email" name="email" class="form-control required"
+                              placeholder="Enter your Email" />
+                          </label>
+                          <span class="input-group-btn">
+                            <button class="btn btn-danger" type="submit">
+                              Subscribe
+                            </button>
+                          </span>
+                        </div>
+                      </form>
+                      <!-- /Newsletter Form -->
+                    </div>
+                    <!-- /col #2 -->
+                  </div>
+                </div>
+        
+                <div class="copyright">
+                  <div class="container">
+                    <ul class="float-right m-0 list-inline mobile-block">
+                      <li><a href="">Terms &amp; Conditions</a></li>
+                      <li>&bull;</li>
+                      <li><a href="">Privacy</a></li>
+                    </ul>
+                    &copy; All Rights Reserved, Company LTD
+                  </div>
+                </div>
+              </footer>
+              <!-- /FOOTER -->
+            </div>        
+
